@@ -13,12 +13,12 @@
 
 .menu-central li {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .menu-central li a {
     text-decoration: none;
-    color: white;
+    color:  #183153;
     margin-right: 20px;
     display: inline-block;
 }
@@ -31,19 +31,19 @@
 
 .menu-right li {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .menu-right li a {
     text-decoration: none;
-    color: white;
+    color:  #183153;
     margin-right: 20px;
     display: inline-block;
 }
 
 .button {
-    color: rgb(31, 60, 192);
-    border: 1px solid rgb(31, 60, 192);
+    color: #2485fd;
+    border: 1px solid #2485fd;
     border-radius: 3px;
     padding-left: 8px;
     padding-right: 8px;
@@ -52,9 +52,21 @@
 
 .jumbotron {
     background-image: url("../img/ms-jumbo.jpg");
-    height: 400px;
-    margin-top: 10px;
 }
 
+h1 {
+    color: white;
+}
+
+.text-jb {
+    color: white;
+    margin-right: 20px;
+}
+
+.login {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 40px;
+}
 /*fine header*/
 
