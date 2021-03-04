@@ -171,7 +171,15 @@ input {
     padding: 30px 0 30px 0;
 }
 
+.menu-infos {
+    margin-left: 20%;
+}
+
 .block {
     margin-top: 40px;
+}
+
+.margine {
+    margin-top: 20px;
 }
 /*fine main*/
