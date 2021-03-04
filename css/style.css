@@ -322,3 +322,30 @@ input {
     margin-top: 20px;
 }
 /*fine main*/
+
+footer {
+    padding: 40px 0 40px 0;
+    background-color: rgb(4, 54, 129);
+    color: lightgray;
+}
+
+footer h3 {
+    color: white;
+}
+
+.menu-footer {
+    margin-top: 5px;
+    list-style-type: none;
+}
+
+.menu-footer li {
+    margin-top: 5px;
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.icons i {
+    margin-right: 8px;
+}
