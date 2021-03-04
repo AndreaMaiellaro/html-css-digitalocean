@@ -1,3 +1,7 @@
+.reset-margin-top {
+    margin-top: 0px;
+}
+
 /*header*/
 /*nav*/
 
@@ -136,6 +140,10 @@ input {
     border: 1px solid whitesmoke;
 }
 
+.img-google {
+    height: 12px;
+}
+
 .white-btn a {
     color: grey;
     text-decoration: none;
@@ -173,6 +181,14 @@ input {
 
 .menu-infos {
     margin-left: 20%;
+    list-style-type: none;
+    border-left: grey solid 1px;
+}
+
+.menu-infos li {
+    margin-left: 8px;
+    margin-bottom: 15px;
+    color: grey;
 }
 
 .block {
@@ -181,5 +197,88 @@ input {
 
 .margine {
     margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/*slide*/
+
+.bg-lightgrey h2 {
+    margin-bottom: 20px;
+}
+
+.img-slide {
+    width: 58%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.chevron {
+    width: 20%;
+    vertical-align: 200px;
+    font-size: 30px;
+}
+
+.sx {
+    text-align: right;
+    color: grey;
+}
+
+.circle {
+    margin-top: 15px;
+    color: #2485fd;
+}
+
+/*features*/
+
+.features {
+    padding: 30px 0 50px 0;
+}
+
+.text-left {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.text-left a {
+    text-decoration: none;
+    color: #2485fd;
+}
+
+/*regions*/
+
+.regions {
+    background-color: rgb(0, 102, 255);
+    background-image: linear-gradient (rgb(0, 102, 255), rgb(4, 54, 129));
+    padding: 50px;
+    color: white;
+}
+
+.txt-regions {
+    padding: 10px;
+    border-bottom: white 1px solid;
+}
+
+.sigla {
+    text-transform: uppercase;
+    text-align: left;
+    display: inline;
+    
+}
+
+.citta {
+    text-align: center;
+    display: inline;
+    margin-left: 50px;
+}
+
+.link {
+    text-align: right;
+    display: inline;
+    margin-left: 200px;
+}
+
+.txt-regions a {
+    text-decoration: none;
+    color: turquoise;
 }
 /*fine main*/
