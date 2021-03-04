@@ -67,6 +67,69 @@ h1 {
     background-color: white;
     border-radius: 5px;
     margin-top: 40px;
+    padding: 20px 0 20px 0;
+}
+
+.blue-txt {
+    color: #2485fd;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.dblue-txt {
+    color: #073874;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+p a {
+    color: #2485fd;
+}
+
+input {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    padding: 8px 8px;
+    box-sizing: border-box;
+}
+
+.blue-btn {
+    background-color: #2485fd;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    border-radius: 3px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.blue-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.white-btn {
+    color: black;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 8px;
+    text-align: center;
+    border-radius: 3px;
+    padding: 8px;
+    border: 1px solid whitesmoke;
+}
+
+.white-btn a {
+    color: grey;
+    text-decoration: none;
 }
 /*fine header*/
 
