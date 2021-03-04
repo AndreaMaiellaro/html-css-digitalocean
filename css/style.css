@@ -54,19 +54,32 @@
     background-image: url("../img/ms-jumbo.jpg");
 }
 
+.jumbotron .container {
+    padding: 40px 0 40px 0;
+}
+
+.banner {
+    
+}
+
 h1 {
     color: white;
+    font-size: 50px;
+    text-align: left;
+    margin-right: 30%;
+    margin-bottom: 10px;
 }
 
 .text-jb {
     color: white;
-    margin-right: 20px;
+    font-size: 20px;
+    text-align: left;
+    margin-right: 10%;
 }
 
 .login {
     background-color: white;
     border-radius: 5px;
-    margin-top: 40px;
     padding: 20px 0 20px 0;
 }
 
