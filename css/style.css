@@ -234,6 +234,19 @@ input {
     padding: 30px 0 50px 0;
 }
 
+.predict {
+    margin-left: 10%;
+}
+
+.world-class {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.reliable {
+    margin-right: 10%;
+}
+
 .text-left {
     text-align: left;
     margin-top: 10px;
@@ -351,5 +364,97 @@ footer h3 {
 }
 
 @media  all and (min-width: 768px) and (max-width: 991px) {
+    .banner {
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .login {
+        margin-right: 15%;
+    }
+
+    .infos .text-centered {
+        margin-left: 5%;
+    }
+
+    .infos p {
+        width: 90%;
+    }
+
+    .img-slide {
+        width: 40%;
+    }
+
+    .chevron {
+        width: 25%;
+        vertical-align: 130px;
+        font-size: 30px;
+    }
     
+    .sx {
+        width: 30%;
+        text-align: right;
+        color: grey;
+    }
+
+    .predict {
+        margin-left: 20%;
+    }
+    
+    .world-class {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    
+    .reliable {
+        margin-right: 20%;
+    }
+
+    .reg-2 {
+        margin-top: 30px;
+    }
+
+    .box {
+        width: 50%;
+        height: 200px;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
+    .img-box {
+        margin-top: 30px;
+        margin-left: 12%;
+        margin-bottom: 10px;
+    }
+
+    .box a {
+        text-decoration: none;
+        color: #2485fd;
+        margin-left: 40%;
+    }
+
+    .button-wb {
+        background-color: white;
+        color: #2485fd;
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 3px;
+        padding: 8px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    footer h3 {
+        margin-top: 20px;
+    }
+
+    footer [class*=col-] {
+        margin-left: 2%;
+    }
 }
