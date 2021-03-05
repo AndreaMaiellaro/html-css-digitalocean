@@ -124,6 +124,10 @@
     .col-md-12 {
       width: calc( ( 100% / 12 ) * 12 );
     }
+
+    .col-md-hidden {
+      display: none;
+    }
   }
   
   @media all and (max-width: 767px) {  
@@ -173,5 +177,9 @@
   
     .col-xs-12 {
       width: calc( ( 100% / 12 ) * 12 );
+    }
+
+    .col-xs-hidden {
+      display: none;
     }
   }

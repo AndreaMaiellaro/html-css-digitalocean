@@ -364,6 +364,12 @@ footer h3 {
 }
 
 @media  all and (min-width: 768px) and (max-width: 991px) {
+    
+    .img-logo {
+        height: 20px;
+        margin-left: 5%;
+    }
+    
     .banner {
         margin-left: 5%;
         margin-right: 10%;
@@ -423,6 +429,130 @@ footer h3 {
         height: 200px;
         margin-right: 25%;
         margin-left: 25%;
+    }
+
+    .img-box {
+        margin-top: 30px;
+        margin-left: 12%;
+        margin-bottom: 10px;
+    }
+
+    .box a {
+        text-decoration: none;
+        color: #2485fd;
+        margin-left: 40%;
+    }
+
+    .button-wb {
+        background-color: white;
+        color: #2485fd;
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 3px;
+        padding: 8px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    footer h3 {
+        margin-top: 20px;
+    }
+
+    footer [class*=col-] {
+        margin-left: 2%;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .banner {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 15px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .login {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .img-aziende {
+        margin-left: 5%;
+        margin-bottom: 10px;
+        margin-right: 5%;
+    }
+
+    .img-fit {
+        width: 100%;
+    }
+
+    .menu-infos {
+        margin-left: 3%;
+    }
+
+    .margine {
+        margin-left: 3%;
+    }
+
+    .infos .text-centered {
+        margin-left: 5%;
+    }
+
+    .infos p {
+        width: 90%;
+    }
+
+    .img-slide {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .chevron {
+        display: none;
+    }
+
+    .predict {
+        margin-left: 3%;
+    }
+    
+    .world-class {
+        margin-left: 3%;
+        margin-top: 20px;
+    }
+    
+    .reliable {
+        margin-left: 3%;
+        margin-top: 20px;
+    }
+
+    .reg-2 {
+        margin-top: 30px;
+    }
+
+    .link {
+        text-align: right;
+        display: inline;
+        margin-left: 280px;
+    }
+
+    .fa-chevron-left {
+        display: none;
+    }
+    .fa-chevron-right {
+        display: none;
+    }
+    .box {
+        width: 50%;
+        height: 200px;
+        margin-right: 25%;
+        margin-left: 25%;
+        margin-top: 30px;
     }
 
     .img-box {
